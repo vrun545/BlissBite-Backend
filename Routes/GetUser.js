@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const fetch = require('../middleware/fetchDetails');
+const fetch = require('../Middleware/fetchDetails');
 
 
 router.post('/getuser', fetch, async (req, res) => {
